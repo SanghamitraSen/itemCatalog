@@ -14,7 +14,7 @@ This Web application allows you to create a catalog system by allowing you to ad
   * **Google account** is required.Create one here:https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp
 ## Steps to execute the project
   * Clone vagrant repo from udacity-->https://github.com/udacity/fullstack-nanodegree-vm/tree/master/vagrant.
-  * Clone this repo and place it inside vagrant folder of above and cd into vagrant folder.
+  * Clone this repo and place its contents inside vagrant folder of above and cd into vagrant folder.
   * Start the virtual machine using command:**vagrant up**
   * Once done,login using **vagrant ssh** and then type **cd /vagrant**
   * To execute the queries run this command: **python project.py**
@@ -67,3 +67,23 @@ Example of logged in but not authorised
 ## Item List(authorised)
 Example of logged in & authorised
 <img src="screenshots/itemslistwhenloggedinandauthorised.png" width="1000">
+
+## Item Edit(authorised)
+`/category/<int:cid>/item/<int:mid>/edit`
+<img src="screenshots/edititem.png" width="1000">
+
+## Item delete(authorised)
+`/category/<int:cid>/item/<int:mid>/delete`
+<img src="screenshots/deleteitem.png" width="1000">
+
+## Category Edit(authorised)
+`/category/<int:cid>/edit/`
+<img src="screenshots/editcategory.png" width="1000">
+
+## Category delete(authorised)
+`/categories/<int:cid>/delete/`
+<img src="screenshots/deletecategory.png" width="1000">
+
+## Logged out
+`/gdisconnect`
+<img src="screenshots/logoutpage.png" width="1000">
