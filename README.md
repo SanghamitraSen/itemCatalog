@@ -14,7 +14,7 @@ This Web application allows you to create a catalog system by allowing you to ad
   * **Google account** is required.Create one here:https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp
 ## Steps to execute the project
   * Clone vagrant repo from udacity-->https://github.com/udacity/fullstack-nanodegree-vm/tree/master/vagrant.
-  * Clone this repo and place its contents inside vagrant folder of above and cd into vagrant folder.
+  * Download zip of this itemCatalog and place its contents inside vagrant folder of above and cd into vagrant folder.
   * Start the virtual machine using command:**vagrant up**
   * Once done,login using **vagrant ssh** and then type **cd /vagrant**
   * To execute the queries run this command: **python project.py**
